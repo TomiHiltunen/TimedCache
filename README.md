@@ -32,7 +32,7 @@ Usage
       sessionStore.PutRefreshing("itemkey1", sessionObject, 24*time.Hour)
       
       // Put a non-refreshing item
-      sessionStore.PutRefreshing("itemkey2", sessionObject2, 24*time.Hour)
+      sessionStore.Put("itemkey2", sessionObject2, 24*time.Hour)
       
       // Remove item
       sessionStore.Delete("itemkey1")
